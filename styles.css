@@ -1,11 +1,19 @@
 /* 基本樣式 */
 body {
     font-family: Arial, sans-serif; /* 設定字體 */
-    line-height: 1.6; /* 行高 */
+    line-height: 2; /* 行高 */
     margin: 0; /* 清除預設的邊距 */
     padding: 0; /* 清除預設的間距 */
   }
-  
+#result {
+    line-height: 1.4; /* 行高 */
+    margin-bottom: 1px; /* 设置间距 */
+  }
+/* 調整訂金結果之間的間距 */
+#depositResult {
+    line-height: 1.4; /* 行高 */
+    margin-top: 1px; /* 设置间距 */
+  }
   /* 定義外部容器，並將其置中 */
   .container {
     width: 96%;
@@ -39,6 +47,7 @@ body {
       font-size: 14px; /* 調整按鈕文字大小 */
     }
     #result, #depositResult {
-      margin-top: 30px; /* 調整計算結果和訂金之間的間距 */
+      line-height: 1.4; /* 行高 */
+      margin-top: 20px; /* 調整計算結果和訂金之間的間距 */
     }
   }
