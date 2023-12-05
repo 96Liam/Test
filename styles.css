@@ -7,12 +7,18 @@ body {
   }
   
   /* 定義外部容器，並將其置中 */
+/* 將容器置中 */
 .container {
-    width: 100%; /* 設定容器寬度 */
-    max-width: 600px; /* 最大寬度，可以根據需要調整 */
-    margin: 0 auto; /* 將容器置中 */
-    padding: 20px; /* 可選：增加內間距 */
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex; /* 使用 Flexbox */
+    flex-direction: column; /* 將內容垂直排列 */
+    align-items: center; /* 水平置中 */
+    text-align: center; /* 文字置中 */
   }
+  
 
   /* 螢幕寬度小於 600px 時的設定（手機）*/
   @media screen and (max-width: 1400px) {
