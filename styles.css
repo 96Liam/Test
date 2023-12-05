@@ -21,16 +21,16 @@ body {
   /* 螢幕寬度小於 1700px 時的設定（手機）*/
   @media screen and (max-width: 1700px) {
     body {
-      font-size: 16px; /* 調整文字大小 */
+      font-size: 14px; /* 調整文字大小 */
     }
     label, input, button {
       display: inline; /* 將標籤、輸入框和按鈕分行顯示 */
       margin-bottom: 20px; /* 增加間距，讓元素之間有空隙 */
     }
     button {
-      width: 50%; /* 設置寬度 */
-      height: 40px; /* 設置高度 */
-      font-size: 12px; /* 調整按鈕文字大小 */
+      width: 40%; /* 設置寬度 */
+      height: 35px; /* 設置高度 */
+      font-size: 14px; /* 調整按鈕文字大小 */
     }
     #result, #depositResult {
       margin-top: 30px; /* 調整計算結果和訂金之間的間距 */
