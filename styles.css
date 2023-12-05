@@ -28,7 +28,7 @@ body {
       margin-bottom: 20px; /* 增加間距，讓元素之間有空隙 */
     }
     button {
-      width: 80%; /* 設置寬度 */
+      width: 50%; /* 設置寬度 */
       height: 40px; /* 設置高度 */
       font-size: 12px; /* 調整按鈕文字大小 */
     }
