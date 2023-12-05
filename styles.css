@@ -1,6 +1,7 @@
 /* 基本樣式 */
 body {
     font-family: Arial, sans-serif; /* 設定字體 */
+    font-size: 18px;
     line-height: 2; /* 行高 */
     margin: 0; /* 清除預設的邊距 */
     padding: 0; /* 清除預設的間距 */
@@ -35,7 +36,7 @@ body {
         height: 100vh; /* 佔滿整個視窗高度 */
       }
     body {
-      font-size: 14px; /* 調整文字大小 */
+      font-size: 18px; /* 調整文字大小 */
     }
     label, input, button {
       display: inline; /* 將標籤、輸入框和按鈕分行顯示 */
