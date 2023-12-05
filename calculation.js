@@ -2,10 +2,15 @@ function calculate() {
   var kilometers = parseFloat(document.getElementById('kilometers').value);
   var hours = parseFloat(document.getElementById('hours').value);
 
-  var result = kilometers * 4.5 + hours * 140;
-  var deposit = hours * 140; // 計算訂金
+  // 检查输入的值是否有效
+  if (isNaN(kilometers) || isNaN(hours) || kilometers <= 0 || hours <= 0) {
+    document.getElementById('result').innerHTML = '低能兒';
+    document.getElementById('depositResult').innerHTML = '輸入大於0的數字啦';
+  } else {
+    var result = kilometers * 4.5 + hours * 140;
+    var deposit = hours * 140; // 計算訂金
 
-  document.getElementById('result').innerHTML = '預期總金額為： NT$ ' + result;
-  document.getElementById('depositResult').innerHTML = '訂金為： NT$ ' + deposit + ' <br> (先收取時間計費，里程計費等還車時再收費)';
- // 顯示訂金結果
+    document.getElementById('result').innerHTML = '預期總金額為： NT$ ' + result;
+    document.getElementById('depositResult').innerHTML = '訂金為： NT$ ' + deposit + ' <br> (先收取時間計費，里程計費等還車時再收費)';
+  }
 }
