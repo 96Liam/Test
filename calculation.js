@@ -2,7 +2,7 @@ function calculate() {
   var kilometers = parseFloat(document.getElementById('kilometers').value);
   var hours = parseFloat(document.getElementById('hours').value);
 
-  // 检查输入的值是否有效
+  // 檢查有沒有低能兒
   if (isNaN(kilometers) || isNaN(hours) || kilometers < 0 || hours < 0) {
     document.getElementById('result').innerHTML = '低能兒';
     document.getElementById('deposit').innerHTML = '你確定要租車?????';
