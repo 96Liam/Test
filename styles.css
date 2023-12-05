@@ -33,7 +33,7 @@ body {
     align-items: center; /* 水平置中 */
     text-align: center; /* 文字置中 */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* 陰影 */
-    border-radius: 20px; /* 邊框 */
+    border-radius: 5px; /* 邊框 */
     background-color: #fff; /* 容器背景color */
     justify-content: center;
     align-items: center;
