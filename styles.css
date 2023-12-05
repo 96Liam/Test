@@ -10,7 +10,7 @@ body {
 /* 將容器置中 */
 .container {
     width: 100%;
-    max-width: 600px;
+    max-width: 700px;
     margin: 0 auto;
     padding: 20px;
     display: flex; /* 使用 Flexbox */
@@ -20,10 +20,10 @@ body {
   }
   
 
-  /* 螢幕寬度小於 600px 時的設定（手機）*/
+  /* 螢幕寬度小於 1400px 時的設定（手機）*/
   @media screen and (max-width: 1400px) {
     body {
-      font-size: 18px; /* 調整文字大小 */
+      font-size: 16px; /* 調整文字大小 */
     }
     label, input, button {
       display: inline; /* 將標籤、輸入框和按鈕分行顯示 */
