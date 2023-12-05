@@ -1,0 +1,25 @@
+/* 基本樣式 */
+body {
+    font-family: Arial, sans-serif; /* 設定字體 */
+    line-height: 1.6; /* 行高 */
+    margin: 0; /* 清除預設的邊距 */
+    padding: 0; /* 清除預設的間距 */
+  }
+  
+  /* 螢幕寬度小於 600px 時的設定（手機）*/
+  @media screen and (max-width: 600px) {
+    body {
+      font-size: 14px; /* 調整文字大小 */
+    }
+    label, input, button {
+      display: block; /* 將標籤、輸入框和按鈕分行顯示 */
+      margin-bottom: 10px; /* 增加間距，讓元素之間有空隙 */
+    }
+    button {
+      width: 100%; /* 讓按鈕滿寬 */
+    }
+    #result, #depositResult {
+      margin-top: 20px; /* 調整計算結果和訂金之間的間距 */
+    }
+  }
+  

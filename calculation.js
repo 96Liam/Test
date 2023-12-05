@@ -6,5 +6,6 @@ function calculate() {
   var deposit = hours * 140; // 計算訂金
 
   document.getElementById('result').innerHTML = '預期總金額為：' + result;
+
   document.getElementById('depositResult').innerHTML = '訂金為：' + deposit +' (先收取時間計費，里程計費等還車時再收費)'; // 顯示訂金結果
 }
