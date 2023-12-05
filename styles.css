@@ -6,8 +6,16 @@ body {
     padding: 0; /* 清除預設的間距 */
   }
   
+  /* 定義外部容器，並將其置中 */
+.container {
+    width: 100%; /* 設定容器寬度 */
+    max-width: 600px; /* 最大寬度，可以根據需要調整 */
+    margin: 0 auto; /* 將容器置中 */
+    padding: 20px; /* 可選：增加內間距 */
+  }
+
   /* 螢幕寬度小於 600px 時的設定（手機）*/
-  @media screen and (max-width: 1300px) {
+  @media screen and (max-width: 1400px) {
     body {
       font-size: 16px; /* 調整文字大小 */
     }
