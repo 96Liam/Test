@@ -5,7 +5,7 @@ function calculate() {
   var result = kilometers * 4.5 + hours * 140;
   var deposit = hours * 140; // 計算訂金
 
-  document.getElementById('result').innerHTML = '預期總金額為：' + result;
-  document.getElementById('depositResult').innerHTML = '訂金為：' + deposit + ' <br> (先收取時間計費，里程計費等還車時再收費)';
+  document.getElementById('result').innerHTML = '預期總金額為： NT$ ' + result;
+  document.getElementById('depositResult').innerHTML = '訂金為： NT$ ' + deposit + ' <br> (先收取時間計費，里程計費等還車時再收費)';
  // 顯示訂金結果
 }
