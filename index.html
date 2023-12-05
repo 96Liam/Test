@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>計算公式</title>
+</head>
+<body>
+  <label for="kilometers">輸入行程預計公里數：</label>
+  <input type="number" id="kilometers">
+  <br>
+  <label for="hours">輸入行程預期總時數：</label>
+  <input type="number" id="hours">
+  <br>
+  <button onclick="calculate()">金額試算</button>
+  <p id="result"></p>
+  <p id="depositResult"></p> <!-- 新增的欄位用於顯示訂金 -->
+
+  <script src="calculation.js"></script>
+</body>
+</html>
