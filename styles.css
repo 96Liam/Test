@@ -30,7 +30,7 @@ body {
       margin-bottom: 20px; /* 增加間距，讓元素之間有空隙 */
     }
     button {
-      width: 50%; /* 讓按鈕滿寬 */
+      width: 100%; /* 讓按鈕滿寬 */
     }
     #result, #depositResult {
       margin-top: 30px; /* 調整計算結果和訂金之間的間距 */
