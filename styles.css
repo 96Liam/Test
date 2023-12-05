@@ -14,7 +14,7 @@ body {
     margin: 0 auto;
     padding: 20px;
     display: flex; /* 使用 Flexbox */
-    flex-direction: column; /* 將內容垂直排列 */
+    flex-direction: row; /* 將內容垂直排列 */
     align-items: center; /* 水平置中 */
     text-align: center; /* 文字置中 */
   }
@@ -26,7 +26,7 @@ body {
       font-size: 18px; /* 調整文字大小 */
     }
     label, input, button {
-      display: inline-block; /* 將標籤、輸入框和按鈕分行顯示 */
+      display: inline; /* 將標籤、輸入框和按鈕分行顯示 */
       margin-bottom: 10px; /* 增加間距，讓元素之間有空隙 */
     }
     button {
