@@ -5,15 +5,19 @@
   <link rel="stylesheet" href="styles.css"> <!-- 引用 CSS 檔案 -->
 </head>
 <body>
-  <label for="kilometers">輸入行程預計公里數：</label>
-  <input type="number" id="kilometers">
-  <br>
-  <label for="hours">輸入行程預期總時數：</label>
-  <input type="number" id="hours">
-  <br>
-  <button onclick="calculate()">金額試算</button>
-  <p id="result"></p>
-  <p id="depositResult"></p> <!-- 新增的欄位用於顯示訂金 -->
+  <div class="container">
+    <div class="input-container"> <!-- 新增包裹使用者輸入的容器 -->
+      <label for="kilometers">輸入行程預計公里數：</label>
+      <input type="number" id="kilometers">
+      <br>
+      <label for="hours">輸入行程預期總時數：</label>
+      <input type="number" id="hours">
+      <br>
+      <button onclick="calculate()">金額試算</button>
+      <p id="result"></p>
+      <p id="depositResult"></p> <!-- 新增的欄位用於顯示訂金 -->
+    </div>
+  </div>
 
   <script src="calculation.js"></script>
 </body>
