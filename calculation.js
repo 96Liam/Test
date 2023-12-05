@@ -7,5 +7,6 @@ function calculate() {
 
   document.getElementById('result').innerHTML = '預期總金額為：' + result;
 
-  document.getElementById('depositResult').innerHTML = '訂金為：' + deposit +' (先收取時間計費，里程計費等還車時再收費)'; // 顯示訂金結果
+  document.getElementById('depositResult').innerHTML = '訂金為：' + deposit + '<br>(先收取時間計費<br>里程計費等還車時再收費)';
+ // 顯示訂金結果
 }
