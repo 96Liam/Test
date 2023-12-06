@@ -27,6 +27,6 @@ function calculate() {
     var finalAmount = (firstpay - depositAmount).toFixed(0); 
 
     document.getElementById('deposit').innerHTML = '訂金： NT$ ' + depositAmount;
-    document.getElementById('depositResult').innerHTML = '取車時需先收取(已扣訂金)： NT$ ' + finalAmount + ' <br> (先收取時間計費，里程計費待還車時另收費)';
+    document.getElementById('depositResult').innerHTML = '取車時需先收取(已扣訂金)： NT$ ' + finalAmount + ' <br> (先收取租借時間費用，還車時依照實際行駛距離計費)';
   }
 }
